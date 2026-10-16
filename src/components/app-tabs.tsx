@@ -27,6 +27,13 @@ export default function AppTabs() {
           renderingMode="template"
         />
       </NativeTabs.Trigger>
+      <NativeTabs.Trigger name="report">
+        <NativeTabs.Trigger.Label>Report</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon
+          src={require('@/assets/images/tabIcons/explore.png')}
+          renderingMode="template"
+        />
+      </NativeTabs.Trigger>
     </NativeTabs>
   );
 }
